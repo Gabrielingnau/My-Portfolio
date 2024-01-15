@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Img from '../../../src/assets/Home.png'
 
 export const HomeContainer = styled.div`
   width: 100%;
@@ -8,7 +9,7 @@ export const HomeContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   padding: 0 9%;
-  background-image: url('../../../src/assets/Home.png');
+  background-image: url(${Img});
   background-position: center;
   background-size: cover;
 
