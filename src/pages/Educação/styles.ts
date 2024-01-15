@@ -25,20 +25,17 @@ export const EducaçãoContainer = styled.div`
 
   @media (max-width: 600px) {
     padding: 2rem 8%;
-    
   }
 
   @media (max-width: 400px) {
     margin-top: 20rem;
   }
-
-
 `
 
 export const EducationRow = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 3rem;
 
   .education-column {
     flex: 1 1 40rem;
@@ -47,6 +44,12 @@ export const EducationRow = styled.div`
       font-size: 2.5rem;
       margin: 0 0 1.5rem 2rem;
       position: relative;
+    }
+  }
+
+  @media (max-width: 991px) {
+    & div:last-child div:last-child div:last-child div:last-child {
+      margin-bottom: 5rem;
     }
   }
 `
@@ -117,10 +120,4 @@ export const Content = styled.div`
   &:hover::before {
     width: 100%;
   }
-
-  @media (max-width: 991px) {
-    &:last-child {
-      margin-bottom: 5rem;
-    }
-    }
 `

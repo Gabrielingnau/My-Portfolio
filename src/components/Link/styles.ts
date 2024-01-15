@@ -4,7 +4,7 @@ import { defaultTheme } from '../../Styles/themes/default'
 export type LinkVariantColor = 'bgColor' | 'mainColor' | 'secundBgColor'
 
 interface LinkContainerProps {
-  variant: LinkVariantColor;
+  variant: LinkVariantColor
 }
 
 const LinkBackground = {
@@ -38,7 +38,7 @@ export const LinkContainer = styled.div<LinkContainerProps>`
 
   .button {
     position: relative;
-      button {
+    button {
       border: none;
       position: relative;
       display: inline-flex;
@@ -57,7 +57,7 @@ export const LinkContainer = styled.div<LinkContainerProps>`
       z-index: 1;
       overflow: hidden;
       transition: 0.4s;
-  
+
       &::before {
         position: relative;
         content: '';
@@ -72,11 +72,11 @@ export const LinkContainer = styled.div<LinkContainerProps>`
           return `background-color: ${LinkAnimation[props.variant]}`
         }};
       }
-  
+
       &:hover::before {
         width: 100%;
       }
-  
+
       &:hover {
         ${(props) => {
           return `color: ${LinkHover[props.variant]}`
@@ -110,11 +110,11 @@ export const IperLink = styled.div<LinkContainerProps>`
     overflow: hidden;
     transition: 0.4s;
     text-align: center;
-    gap: .8rem;
+    gap: 0.8rem;
 
     svg {
       ${(props) => {
-      return `color: ${LinkColor[props.variant]}`
+        return `color: ${LinkColor[props.variant]}`
       }};
       transition: 0.5s;
     }
@@ -144,8 +144,8 @@ export const IperLink = styled.div<LinkContainerProps>`
 
       svg {
         ${(props) => {
-        return `color: ${LinkHover[props.variant]}`
-      }};
+          return `color: ${LinkHover[props.variant]}`
+        }};
       }
     }
   }

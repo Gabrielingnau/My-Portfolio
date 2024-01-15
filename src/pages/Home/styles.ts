@@ -23,15 +23,14 @@ export const HomeContainer = styled.div`
 export const HomeContent = styled.div`
   max-width: 70%;
 
-
-    h1 {
+  h1 {
     position: relative;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
     white-space: nowrap;
   }
-  
+
   p {
     position: relative;
     font-size: 1.6rem;
@@ -103,7 +102,10 @@ export const TextAnimate = styled.div`
     color: transparent;
     -webkit-text-stroke: 0.7px ${(props) => props.theme['main-color']};
     white-space: nowrap;
-    background-image: linear-gradient(${(props) => props.theme['main-color']}, ${(props) => props.theme['main-color']});
+    background-image: linear-gradient(
+      ${(props) => props.theme['main-color']},
+      ${(props) => props.theme['main-color']}
+    );
     -webkit-background-clip: text;
     background-repeat: no-repeat;
     background-position: -41rem 0;
@@ -125,33 +127,41 @@ export const TextAnimate = styled.div`
   }
 
   @keyframes homeBgText {
-      0%,10%,100% {
-        background-position: -41rem 0;
-      }
-
-      65%,85% {
-        background-position: 0 0;
-      }
+    0%,
+    10%,
+    100% {
+      background-position: -41rem 0;
     }
 
-    @keyframes homeCursorText {
-      0%,10%,100% {
-        width: 0;
-      }
-
-      65%,78%,85% {
-        width: 100%;
-        opacity: 1;
-      }
-
-      75%,81% {
-        opacity: 0;
-      }
+    65%,
+    85% {
+      background-position: 0 0;
     }
+  }
+
+  @keyframes homeCursorText {
+    0%,
+    10%,
+    100% {
+      width: 0;
+    }
+
+    65%,
+    78%,
+    85% {
+      width: 100%;
+      opacity: 1;
+    }
+
+    75%,
+    81% {
+      opacity: 0;
+    }
+  }
 `
 
 export const BtnBox = styled.div`
-height: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   width: 46rem;
@@ -237,6 +247,6 @@ export const HomeImgHover = styled.div`
   }
 
   @media (max-width: 991px) {
-   display: none;
+    display: none;
   }
 `

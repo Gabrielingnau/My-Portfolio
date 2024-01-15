@@ -23,13 +23,17 @@ export function Link({
     <LinkContainer variant={variant}>
       {text && (
         <IperLink variant={variant}>
-          <Reload variant={5}/>
-         <a href={href}>{iconLeft}{text}{iconRight}</a>
+          <Reload variant={5} />
+          <a href={href}>
+            {iconLeft}
+            {text}
+            {iconRight}
+          </a>
         </IperLink>
       )}
       <div className="button">
-      <Reload variant={5}/>
-      {children}
+        <Reload variant={5} />
+        {children}
       </div>
     </LinkContainer>
   )

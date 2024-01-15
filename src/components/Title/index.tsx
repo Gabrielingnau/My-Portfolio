@@ -9,7 +9,7 @@ interface TitleProps {
 export function Title({ text, textSpan }: TitleProps) {
   return (
     <TitleContainer>
-      <Reload variant={1}/>
+      <Reload variant={1} />
       {text} <span>{textSpan}</span>
     </TitleContainer>
   )

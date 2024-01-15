@@ -10,21 +10,21 @@ export function Contato() {
       <Title text="Entre em" textSpan="Contato" />
       <Form>
         <div className="input-box">
-        <Reload variant={2}/>
+          <Reload variant={2} />
           <Input type="text" placeholder="Nome" />
 
           <Input type="text" placeholder="Email" />
         </div>
 
         <div className="input-box">
-        <Reload variant={3}/>
+          <Reload variant={3} />
           <Input type="number" placeholder="Numero de Telefone" />
 
           <Input type="text" placeholder="Assunto" />
         </div>
 
         <div className="textarea-field">
-        <Reload variant={4}/>
+          <Reload variant={4} />
           <textarea rows={8} placeholder="Sua Mensagem" required></textarea>
           <span className="focus"></span>
         </div>

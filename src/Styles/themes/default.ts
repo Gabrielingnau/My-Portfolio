@@ -6,7 +6,6 @@ export const defaultTheme = {
   'text-color': '#ededed',
   'main-color': '#00B37E',
 
-
   'green-300': '#00B37E',
   'green-500': '#00875F',
   'green-700': '#024F33',

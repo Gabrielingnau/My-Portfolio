@@ -10,10 +10,13 @@ export function Habilidades() {
 
       <div className="skills-row">
         <SkillsColunm>
-          <h3 className="title"><Reload variant={2}/>Habilidades de Codificação</h3>
+          <h3 className="title">
+            <Reload variant={2} />
+            Habilidades de Codificação
+          </h3>
 
           <div className="skills-box">
-          <Reload variant={3}/>
+            <Reload variant={3} />
             <div className="skills-content">
               <Progress text="HTML" porcentage="90%" />
 
@@ -31,10 +34,13 @@ export function Habilidades() {
         </SkillsColunm>
 
         <SkillsColunm>
-          <h3 className="title"><Reload variant={4}/>Em Aprendizado</h3>
+          <h3 className="title">
+            <Reload variant={4} />
+            Em Aprendizado
+          </h3>
 
           <div className="skills-box">
-          <Reload variant={5}/>
+            <Reload variant={5} />
             <div className="skills-content">
               <Progress text="Inglês" porcentage="20%" />
 

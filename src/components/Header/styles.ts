@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-
-
 export const HeaderContainer = styled.header`
   position: fixed;
   top: 0;
@@ -32,14 +30,14 @@ export const HeaderContainer = styled.header`
       z-index: 20;
       position: relative;
     }
-  } 
-  
+  }
+
   .nav {
     width: 70%;
     position: absolute;
     top: 100%;
     left: -35%;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .activee {
@@ -47,7 +45,7 @@ export const HeaderContainer = styled.header`
     position: absolute;
     top: 100%;
     left: 0%;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   @media (max-width: 991px) {

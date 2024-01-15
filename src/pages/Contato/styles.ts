@@ -9,8 +9,20 @@ export const ContatoContainer = styled.div`
     padding: 2rem 4%;
   }
 
+  @media (max-height: 600px) {
+    margin-top: 10rem;
+  }
+
+  @media (max-height: 500px) {
+    margin-top: 20rem;
+  }
+
+  @media (max-height: 400px) {
+    margin-top: 30rem;
+  }
+
   @media (max-width: 600px) {
-    padding: 2rem 8%;
+    padding: 2rem 8% 10rem;
     margin-bottom: -10rem;
   }
 `

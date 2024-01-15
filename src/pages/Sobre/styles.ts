@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const SobreContainer = styled.div`
-display: flex;
-align-items: center;
-width: 100%;
-scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  scroll-behavior: smooth;
 
-section {
+  section {
     min-width: 100%;
     display: flex;
     align-items: center;
@@ -15,28 +15,27 @@ section {
     gap: 2rem;
 
     .wraper {
-      display: flex; 
+      display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       gap: 4rem;
     }
-  
+
     @media (max-width: 991px) {
       padding: 2rem 6%;
     }
-  
+
     @media (max-width: 600px) {
       padding: 10rem 8%;
       justify-content: flex-end;
     }
-}
+  }
   #Sobre {
-  
     @media (max-width: 991px) {
       padding: 2rem 4%;
     }
-  
+
     @media (max-width: 600px) {
       padding: 2rem 8%;
     }
@@ -44,14 +43,14 @@ section {
     @media (min-width: 320px) and (max-height: 700px) {
       margin-top: 10rem;
     }
-    
+
     @media (min-width: 320px) and (max-height: 500px) {
       margin-top: 35rem;
     }
-    
+
     @media (min-width: 500px) and (max-height: 700px) {
       margin-top: 15rem;
-        .wraper {
+      .wraper {
         flex-direction: row;
         gap: 5rem;
       }
@@ -85,7 +84,7 @@ export const SobreImg = styled.div`
     border-bottom: 0.2rem solid ${(props) => props.theme['bg-color']};
     border-left: 0.2rem solid ${(props) => props.theme['main-color']};
     border-right: 0.2rem solid ${(props) => props.theme['main-color']};
-    animation: aboutSpiner 7s  linear infinite;
+    animation: aboutSpiner 7s linear infinite;
 
     @keyframes aboutSpiner {
       100% {
@@ -94,17 +93,17 @@ export const SobreImg = styled.div`
     }
   }
 
-  @media (max-height: 700px ) {
-      min-width: 20rem;
+  @media (max-height: 700px) {
+    min-width: 20rem;
 
-      img {
-        width: 22rem;
-      }
-
-      .circle-spin {
-        height: 24rem;
-      }
+    img {
+      width: 22rem;
     }
+
+    .circle-spin {
+      height: 24rem;
+    }
+  }
 `
 
 export const SobreContent = styled.div`
@@ -123,6 +122,6 @@ export const SobreContent = styled.div`
   }
 
   @media (max-height: 700px) {
-      max-width: 60rem;
+    max-width: 60rem;
   }
 `

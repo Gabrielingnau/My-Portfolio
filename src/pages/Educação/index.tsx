@@ -15,13 +15,16 @@ export function Educação() {
 
       <EducationRow>
         <div className="education-column">
-          <h3 className="title"><Reload variant={2}/>Educação</h3>
+          <h3 className="title">
+            <Reload variant={2} />
+            Educação
+          </h3>
           <EducationBox>
-          <Reload variant={3}/>
+            <Reload variant={3} />
             <div className="education-content">
               <Content>
                 <div className="year">
-                  <IoCalendarOutline  />
+                  <IoCalendarOutline />
                   2022 - 2023
                 </div>
                 <h3>Aluno - RocketSeat</h3>
@@ -53,13 +56,16 @@ export function Educação() {
         </div>
 
         <div className="education-column">
-          <h3 className="title"><Reload variant={4}/>Experiência</h3>
+          <h3 className="title">
+            <Reload variant={4} />
+            Experiência
+          </h3>
           <EducationBox>
-          <Reload variant={5}/>
+            <Reload variant={5} />
             <div className="education-content">
               <Content>
                 <div className="year">
-                  <IoCalendarOutline  />
+                  <IoCalendarOutline />
                   2022 - 2023
                 </div>
                 <h3>Desenvolvedor Web</h3>
@@ -75,11 +81,11 @@ export function Educação() {
             <div className="education-content">
               <Content>
                 <div className="year">
-                  <IoCalendarOutline  />
+                  <IoCalendarOutline />
                   2024
                 </div>
                 <h3>Desenvolvedor Web</h3>
-                <p>
+                <p className="margin">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Expedita autem quis maiores aut obcaecati in excepturi
                   voluptatem minima placeat rem possimus, nihil, nobis nulla

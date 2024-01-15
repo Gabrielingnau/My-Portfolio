@@ -61,5 +61,5 @@ export const SkillsColunm = styled.div`
     &:last-child {
       margin-bottom: 5rem;
     }
-    }
+  }
 `
