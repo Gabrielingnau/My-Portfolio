@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { defaultTheme } from '../../Styles/themes/default'
-import { ReactNode } from 'react'
 
 export type LinkVariantColor = 'bgColor' | 'mainColor' | 'secundBgColor'
 
