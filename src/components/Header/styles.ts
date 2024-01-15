@@ -5,8 +5,7 @@ import styled from 'styled-components'
 export const HeaderContainer = styled.header`
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
   background: transparent;
   z-index: 100;
   display: flex;

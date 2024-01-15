@@ -25,7 +25,7 @@ export const HomeContent = styled.div`
 
 
     h1 {
-      position: relative;
+    position: relative;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -74,10 +74,11 @@ export const HomeContent = styled.div`
   @media (max-width: 600px) {
     padding: 2rem 8%;
     justify-content: flex-start;
-    margin-top: 10rem;
+    margin-top: 15rem;
 
     .links {
       min-height: 40rem;
+      margin-top: -8rem;
     }
   }
 `

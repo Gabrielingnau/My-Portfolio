@@ -8,7 +8,6 @@ scroll-behavior: smooth;
 
 section {
     min-width: 100%;
-    height: 200vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +28,6 @@ section {
   
     @media (max-width: 600px) {
       padding: 10rem 8%;
-      min-height: 100vh;
       justify-content: flex-end;
     }
 }
