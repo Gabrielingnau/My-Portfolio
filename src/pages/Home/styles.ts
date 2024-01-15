@@ -7,7 +7,7 @@ export const HomeContainer = styled.div`
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background: url('../../../Public/images/Home.png') no-repeat;
+  background: url('../../../Public/Home.png') no-repeat;
   background-size: cover;
   background-position: center;
   padding: 0 9%;
