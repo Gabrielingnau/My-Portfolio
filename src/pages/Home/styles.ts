@@ -71,6 +71,16 @@ export const HomeContent = styled.div`
     }
   }
 
+  @media (max-width: 800px) and (max-height: 400px) {
+    padding: 2rem 8%;
+    justify-content: flex-start;
+    margin-top: 15rem;
+
+    .links {
+      min-height: 30rem;
+    }
+  }
+
   @media (max-width: 600px) {
     padding: 2rem 8%;
     justify-content: flex-start;

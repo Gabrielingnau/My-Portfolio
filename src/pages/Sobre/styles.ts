@@ -41,14 +41,21 @@ section {
       padding: 2rem 8%;
     }
 
+    @media (min-width: 320px) and (max-height: 700px) {
+      margin-top: 10rem;
+    }
+    
+    @media (min-width: 320px) and (max-height: 500px) {
+      margin-top: 35rem;
+    }
+    
     @media (min-width: 500px) and (max-height: 700px) {
+      margin-top: 15rem;
         .wraper {
         flex-direction: row;
         gap: 5rem;
       }
     }
-
-
   }
 `
 
@@ -117,14 +124,5 @@ export const SobreContent = styled.div`
 
   @media (max-height: 700px) {
       max-width: 60rem;
-  }
-`
-
-
-export const BtnBox = styled.div`
-  display: inline-block;
-
-  @media (max-width: 991px) {
-    margin-bottom: 10rem;
   }
 `

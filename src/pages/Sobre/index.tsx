@@ -23,6 +23,20 @@ export function Sobre() {
         voluptatem.
         <Reload variant={4}/>
       </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ea
+        officiis earum dolorum quasi harum, sint omnis fuga id quis,
+        consequuntur labore enim. Omnis atque alias fugiat. Quidem, ea
+        voluptatem.
+        <Reload variant={4}/>
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ea
+        officiis earum dolorum quasi harum, sint omnis fuga id quis,
+        consequuntur labore enim. Omnis atque alias fugiat. Quidem, ea
+        voluptatem.
+        <Reload variant={4}/>
+      </p>
       </SobreContent>
       </div>
       </section>
