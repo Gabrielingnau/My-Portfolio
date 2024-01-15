@@ -1,6 +1,6 @@
 import { SobreContainer, SobreContent, SobreImg } from './styles'
 import { Title } from '../../components/Title'
-import imgSobre from '../../../public/images/Sobre.png'
+import imgSobre from '../../assets/Sobre.png'
 import { Reload } from '../../components/Reload'
 
 export function Sobre() {
