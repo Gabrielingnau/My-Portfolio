@@ -7,10 +7,10 @@ export const HomeContainer = styled.div`
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background: url('../../../Public/Home.png') no-repeat;
-  background-size: cover;
-  background-position: center;
   padding: 0 9%;
+  background-image: url('../../../src/assets/Home.png');
+  background-position: center;
+  background-size: cover;
 
   @media (max-width: 991px) {
     background: ${(props) => props.theme['bg-color']};

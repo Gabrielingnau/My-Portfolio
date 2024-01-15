@@ -61,6 +61,7 @@ export const SobreContainer = styled.div`
 export const SobreImg = styled.div`
   position: relative;
   min-width: 27rem;
+  min-height: 27rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
