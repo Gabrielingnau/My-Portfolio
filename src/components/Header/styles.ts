@@ -96,8 +96,8 @@ export const Sidebar = styled.nav`
   position: absolute;
   top: 0;
   left: 0;
-  padding: 1rem 8%;
-  gap: 3rem;
+  padding: 1rem 6%;
+  gap: 5rem;
   background-color: ${(props) => props.theme['bg-color']};
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 

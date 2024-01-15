@@ -95,7 +95,7 @@ export const SobreImg = styled.div`
   }
 
   @media (max-height: 700px) {
-    min-width: 20rem;
+    min-width: 27rem;
 
     img {
       width: 22rem;
