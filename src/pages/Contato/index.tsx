@@ -1,5 +1,4 @@
 import { ContatoContainer, Form, InputContainer } from './styles'
-import { Input } from '../../components/Input'
 import { Link } from '../../components/Link'
 import { Title } from '../../components/Title'
 import { Reload } from '../../components/Reload'
