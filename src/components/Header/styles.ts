@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   top: 0;
   width: 100%;
   background: transparent;
-  z-index: 100;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,7 +27,7 @@ export const HeaderContainer = styled.header`
       font-size: 3.6rem;
       color: ${(props) => props.theme['text-color']};
       cursor: pointer;
-      z-index: 20;
+      z-index: 10;
       position: relative;
     }
   }

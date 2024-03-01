@@ -20,8 +20,6 @@ export function Habilidades() {
             <div className="skills-content">
               <Progress text="HTML" porcentage="90%" />
 
-              <Progress text="CSS" porcentage="80%" />
-
               <Progress text="Javascript" porcentage="70%" />
 
               <Progress text="Typescript" porcentage="85%" />
@@ -29,6 +27,8 @@ export function Habilidades() {
               <Progress text="Node" porcentage="60%" />
 
               <Progress text="React" porcentage="85%" />
+
+              <Progress text="React Native" porcentage="80%" />
             </div>
           </div>
         </SkillsColunm>

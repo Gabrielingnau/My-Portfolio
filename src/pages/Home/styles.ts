@@ -22,7 +22,7 @@ export const HomeContainer = styled.div`
 `
 
 export const HomeContent = styled.div`
-  max-width: 70%;
+  max-width: 65%;
 
   h1 {
     position: relative;

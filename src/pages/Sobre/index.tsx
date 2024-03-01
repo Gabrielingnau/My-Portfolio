@@ -20,24 +20,11 @@ export function Sobre() {
               Desenvolvedor Fullstack!
             </h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Provident ea officiis earum dolorum quasi harum, sint omnis fuga
-              id quis, consequuntur labore enim. Omnis atque alias fugiat.
-              Quidem, ea voluptatem.
+            Ao completar mais de um ano dedicado ao desenvolvimento de projetos pessoais como desenvolvedor de software, posso afirmar que essa jornada tem sido incrivelmente enriquecedora e desafiadora. Esses projetos independentes permitiram-me explorar minha criatividade, experimentar novas tecnologias e aprimorar minhas habilidades de resolução de problemas. Ao desenvolver soluções que partem diretamente das minhas ideias, tenho a liberdade de explorar diversas abordagens e aprender com cada desafio encontrado, proporcionando uma experiência de aprendizado prática e valiosa.
               <Reload variant={4} />
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Provident ea officiis earum dolorum quasi harum, sint omnis fuga
-              id quis, consequuntur labore enim. Omnis atque alias fugiat.
-              Quidem, ea voluptatem.
-              <Reload variant={4} />
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Provident ea officiis earum dolorum quasi harum, sint omnis fuga
-              id quis, consequuntur labore enim. Omnis atque alias fugiat.
-              Quidem, ea voluptatem.
+            Essa experiência no desenvolvimento de projetos pessoais não apenas ampliou meu conjunto de habilidades técnicas, mas também fortaleceu minha capacidade de gerenciamento de tempo, organização e autoconfiança. A autonomia para definir metas e a satisfação de ver projetos pessoais ganharem vida impulsionam meu comprometimento contínuo com a melhoria e inovação. À medida que sigo desenvolvendo ideias e explorando novos horizontes, a experiência acumulada ao longo desse período se torna um alicerce sólido para futuros desafios no campo da tecnologia.
               <Reload variant={4} />
             </p>
           </SobreContent>

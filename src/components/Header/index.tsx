@@ -15,7 +15,7 @@ export function Header() {
 
   const home = id == undefined
   const sobre = id == '1'
-  const educação = id == '2'
+  const projetos = id == '2'
   const habilidades = id == '3'
   const contato = id == '4'
 
@@ -61,7 +61,7 @@ export function Header() {
           <span className={sobre ? 'active' : ''}>Sobre</span>
         </Link>
         <Link to="/Educação/2">
-          <span className={educação ? 'active' : ''}>Educação</span>
+          <span className={projetos ? 'active' : ''}>Projetos</span>
         </Link>
         <Link to="/Habilidades/3">
           <span className={habilidades ? 'active' : ''}>Habilidades</span>
@@ -80,7 +80,7 @@ export function Header() {
               <span className={sobre ? 'active' : ''}>Sobre</span>
             </Link>
             <Link onClick={handleClickNav} to="/Educação/2">
-              <span className={educação ? 'active' : ''}>Educação</span>
+              <span className={projetos ? 'active' : ''}>Projetos</span>
             </Link>
             <Link onClick={handleClickNav} to="/Habilidades/3">
               <span className={habilidades ? 'active' : ''}>Habilidades</span>

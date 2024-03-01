@@ -25,15 +25,14 @@ export function Home() {
         </TextAnimate>
         <p>
           <Reload variant={4} />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis
-          ab magnam similique, doloribus officia minima impedit magni obcaecati
-          beatae? Provident atque laudantium voluptatibus, debitis eveniet modi
-          temporibus deserunt quos.
+          Trabalho com o desenvolvimento de software a mais de 1 ano, amo o que faço,
+          e estou cada dia aprendendo mais. Desenvolvi esse site para que voçe, conheça um 
+          pouco sobre mim e meu trabalho, espero que goste.
         </p>
 
         <div className="links">
           <BtnBox>
-            <Link href="#" text="Curriculo" />
+            <Link href="https://drive.usercontent.google.com/u/1/uc?id=1qL1AeYDQOx7l6xSoObVlYwNpkU3lBxBE&export=download" text="Curriculo" />
 
             <Link
               href="https://api.whatsapp.com/send?phone=5566984419252"
