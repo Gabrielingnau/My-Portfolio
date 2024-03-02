@@ -1,6 +1,6 @@
 # My Portfolio
 
-### [Portfolio link](https://65e2479e0142bf0008f6a6af--gabrielingnau.netlify.app/)
+### [Portfolio link](https://gabrielingnau.netlify.app)
 
 My responsive portfolio made to show a little bit of my work, I hope you like it, and that you hire me 😊
 
