@@ -26,7 +26,7 @@ export function Home() {
         <p>
           <Reload variant={4} />
           Trabalho com o desenvolvimento de software a mais de 1 ano, amo o que faço,
-          e estou cada dia aprendendo mais. Desenvolvi esse site para que voçe, conheça um 
+          e estou cada dia aprendendo mais. Desenvolvi esse site para que você, conheça um 
           pouco sobre mim e meu trabalho, espero que goste.
         </p>
 
