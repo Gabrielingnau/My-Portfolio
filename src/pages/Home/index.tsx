@@ -32,7 +32,7 @@ export function Home() {
 
         <div className="links">
           <BtnBox>
-            <Link href="https://drive.usercontent.google.com/u/1/uc?id=1qL1AeYDQOx7l6xSoObVlYwNpkU3lBxBE&export=download" text="Curriculo" />
+            <Link href="https://drive.usercontent.google.com/u/1/uc?id=1IVRX9-rdWFtjOiB2bX8jSAhxCJnp20IM&export=download" text="Curriculo" />
 
             <Link
               href="https://api.whatsapp.com/send?phone=5566984419252"
